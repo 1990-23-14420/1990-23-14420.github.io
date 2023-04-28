@@ -1,0 +1,121 @@
+html{
+	background-image: url(F.jpg);
+    background-size: cover;
+	
+}
+main
+{
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(6, 4, 119, 0.274);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+
+
+button
+{
+    font-family:Bahnschrift Black ;
+    background-color:rgb(46, 165, 235);
+    padding: 10px 10px;
+    font-size: 20px;
+    margin: 10px 10px;
+    transition: all .3s;
+}
+
+button:hover
+{
+    background-color: rgb(6, 69, 128);
+    color: white;
+}
+
+form{
+	background-color: #050753ad;
+	width: 400px;
+	height: 400px;
+	border-radius: 10px;
+	text-align: center;
+    border-top: 5px;
+}
+.a{
+    color: rgb(255, 255, 255);
+	border-radius: 5px;
+}
+
+input{
+	width: 240px;
+	height: 30px;
+	border-radius: 5px;
+    background-color:rgb(85, 49, 245);
+    font-family:Arial Black;
+}
+
+
+
+.alerta
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+        
+}
+.alerta.active
+{
+    visibility: visible;
+}
+
+.ventana
+{
+    width: 80%; 
+    position: relative;
+}
+
+
+
+
+.cerrar
+{
+   padding: 10px 15px;
+   background-color: #06e6fa; 
+   color: white;
+   font-size: 20px;
+   border-radius: 50%;
+   font-family: sans-serif;
+   position: absolute;
+   top: 0px;
+   right: 328px;
+   cursor: pointer;
+}
+
+input:hover
+{
+    background-color: rgb(32, 205, 228);
+}
+select:hover
+{
+    background-color: rgb(0, 17, 255);
+}
+.imagen
+{
+    position: absolute;
+    margin-left:650px; 
+    margin-top:140px; 
+    width:550px; 
+    height:375px;
+}
+h3
+{
+    color: white;
+}
